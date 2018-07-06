@@ -1,4 +1,4 @@
-﻿/*
+/*
 	===========================
 	Copyright: LidPlay
 	E-mail: contact@lidplay.net
@@ -14,7 +14,7 @@
 	http://lidplay.net/loader.js?default_resolution=480
 
 	А если хотите изменить два параметра и больше:
-	http://lidplay.net/loader.js?default_resolution=720&refreshPlayers=false&refreshPlayersTime=3000...
+	http://lidplay.net/loader.js?default_resolution=480&refreshPlayers=false&refreshPlayersTime=3000...
 
 	Скрипт обновлен: April 01 2018 14:21.
 
@@ -26,7 +26,7 @@
 	Допустимые значения: 144,240,360,480,720,1080
 */
 
-var default_resolution = "720";
+var default_resolution = "360";
 
 /*
 	Обновлять ли плееры каждую секунду?
@@ -34,7 +34,7 @@ var default_resolution = "720";
 	Допустимые значения: true, false
 */
 
-var refreshPlayers = false;
+var refreshPlayers = true;
 
 /*
 	Время, через которое скрипт снова ищет плееры, которые можно заменить.
@@ -82,7 +82,7 @@ var providers = [
 	'embed.publicvideohost.org',
 	'www.dailymotion.com',
 	'www.stormo.tv',
-   'www.youtube.com/embed',	'xhamster.com',
+	'xhamster.com',
 	'flashservice.xvideos.com',
 	'www.pornhub.com',
 	'www.dropbox.com'
